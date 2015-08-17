@@ -43,11 +43,14 @@ public class DSSWEAnalyzer {
     int allEditsCount = 0;
 
 
+	// Number of edits on Wikidata Items DSS
     int dssEditsCount = 0;
     int dssNewItems = 0;
 
+	// Number of new Wikidata items created
     int newItems = 0;
 
+	// Types of edits --- defined by the Wikidata API: https://www.wikidata.org/w/api.php
     int wbeditentityCreateEdits = 0;
     int wbcreateclaimCreateEdits =0;
     int wbsetclaimCreateEdits = 0;
@@ -68,12 +71,12 @@ public class DSSWEAnalyzer {
     int wbmergeitemsFromEdits=0;
     int clientsitelinkUpdateEdits=0;
 
-    int euThings=0; //euskara
-    int esThings=0; //castellano
-    int enThings=0; //inglés
-    int deThings=0; //alemán
-    int glThings=0; //gallego
-    int otherThings=0; //otros
+    int euThings=0; //basque
+    int esThings=0; //spanish
+    int enThings=0; //english
+    int deThings=0; //german
+    int glThings=0; //galician
+    int otherThings=0; //other
 
 
     // Current code directory.
@@ -398,7 +401,7 @@ public class DSSWEAnalyzer {
                          "usercontribs": [
                          {
                          "userid": 2088802,
-                         "user": "Jberdean",
+                         "user": "xxx",
                          "pageid": 22387768,
                          "revid": 225922733,
                          "parentid": 225922207,
